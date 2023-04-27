@@ -10,7 +10,7 @@ import datetime
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
-from random import randint #CFuzzy
+import  random  #CFuzzy
 
 if os.name == 'posix':
     print('os is linux')
@@ -129,7 +129,7 @@ class ThreadedServer(object):
 
 def send_data_in_fragment(data , sock):
     if RFrag == True: #CFuzzy
-        L_Fragment = random.randint(77,250) #CFuzzy
+        L_fragment = random.randint(77,250) #CFuzzy
 
     for i in range(0, len(data), L_fragment):
         fragment_data = data[i:i+L_fragment]
