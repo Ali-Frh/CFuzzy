@@ -1,6 +1,5 @@
 # CFuzzy
-![image](https://user-images.githubusercontent.com/16538325/234743692-96357a7a-ecc2-4b3c-a2a9-b935e810c1db.png)
-
+![image](https://user-images.githubusercontent.com/16538325/234744580-cfa8b30b-6b72-46e0-b696-99d7791a1627.png)
 ## So, wtf is this ?
 its a gui made for [This Masterpiece](https://github.com/GFW-knocker/gfw_resist_tls_proxy) code which make some socket stuff to your cloudflare requestes and get it pass through Goofy Firewall (GFW) and similar ones.
 
