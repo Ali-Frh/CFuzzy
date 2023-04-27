@@ -4,7 +4,10 @@
 its a gui made for [This Masterpiece](https://github.com/GFW-knocker/gfw_resist_tls_proxy) code which make some socket stuff to your cloudflare requestes and get it pass through Goofy Firewall (GFW) and similar ones.
 
 ## How to use it?
-```wget "https://github.com/Ali-Frh/CFuzzy/archive/refs/heads/main.zip" && unzip main.zip && cd CFuzzy-main && python3 main.py``` 
+```console
+wget "https://github.com/Ali-Frh/CFuzzy/archive/refs/heads/main.zip" && unzip main.zip && cd CFuzzy-main && python3 main.py
+```   
+
 or even make a shortcut for main.py and double-click on it.
 
 ## Why this app looks ancient ?
