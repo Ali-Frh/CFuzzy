@@ -25,3 +25,6 @@ ps. I clearified my additions by #CFuzzy comment in the code.
 - implement more tweaks
 - maybe adding Farsi
 - maybe adding some server killer feature in case that you closed app accidentally
+
+## License
+i was wanted to choose MIT but the original project used GPL-3, so...
