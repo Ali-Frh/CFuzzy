@@ -17,12 +17,14 @@ because i made it with Tkinter which is a ancient graphical toolkit, it doesnt l
 to change their value and using it easier for users and testers.
 
 ## My pyprox_tcp.py Differences to the Original one
-added some random.randint() feature to send_data_in_fragment() function, which suggested by [This Dude](https://twitter.com/joje_twit/status/1651341798046826496)  
+~~added some random.randint() feature to send_data_in_fragment() function, which suggested by [This Dude](https://twitter.com/joje_twit/status/1651341798046826496)~~  
+i will not tweaking the tcpproxy script anymore because the original project is very active and i just modify the script for make it compatible with the GUI.  
 ps. I clearified my additions by #CFuzzy comment in the code.
 
 ## TODO:
 - make this thing save last settings when closed.
-- implement more tweaks
+- adding an internal xray core for supporting yt feature and more.
+- maybe making a server choosing menu from (yebekhe/cf-clean-ip-resolver)
 - maybe adding Farsi
 - maybe adding some server killer feature in case that you closed app accidentally
 
