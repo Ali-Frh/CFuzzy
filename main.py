@@ -20,7 +20,7 @@ def doinshit():
         doing = False
     else:
         doing = True
-        server = subprocess.Popen(["python3","launcher.py",f"{svport.get()}",
+        server = subprocess.Popen(["python3","stuff/launcher.py",f"{svport.get()}",
         f"{cfip.get()}",
         f"{cfport.get()}",
         f"{l_fragment.get()}",
@@ -29,7 +29,7 @@ def doinshit():
         f"{first_time_sleep.get()}",
         f"{accept_time_sleep.get()}",
         f"{RFrag.get()}"])
-
+        print("RF",RFrag.get())
         toggle["text"] = "Stop Server"
 
     toggle["state"] = "normal"

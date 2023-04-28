@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# downloaded in 28 apr 2023 2:44 PM IRST
+
 
 import socket
 import threading
@@ -10,8 +12,7 @@ import datetime
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
-import  random  #CFuzzy
-
+print("PyproxTCP Intialized") #CFuzzy
 if os.name == 'posix':
     print('os is linux')
     import resource   # ( -> pip install python-resources )
@@ -62,6 +63,8 @@ class ThreadedServer(object):
         first_flag = True
         backend_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         backend_sock.settimeout(my_socket_timeout)
+        backend_sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)   #force localhost kernel to send TCP packet immediately (idea: @free_the_internet)
+
         while True:
             try:
                 if( first_flag == True ):                        
@@ -128,9 +131,7 @@ class ThreadedServer(object):
 
 
 def send_data_in_fragment(data , sock):
-    if RFrag == True: #CFuzzy
-        L_fragment = random.randint(77,250) #CFuzzy
-
+    
     for i in range(0, len(data), L_fragment):
         fragment_data = data[i:i+L_fragment]
         print('send ',len(fragment_data),' bytes')                        
@@ -141,3 +142,8 @@ def send_data_in_fragment(data , sock):
         time.sleep(fragment_sleep)
 
     print('----------finish------------')
+
+
+
+
+    

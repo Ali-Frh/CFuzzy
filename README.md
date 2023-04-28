@@ -17,15 +17,12 @@ because i made it with Tkinter which is a ancient graphical toolkit, it doesnt l
 to change their value and using it easier for users and testers.
 
 ## My pyprox_tcp.py Differences to the Original one
-~~added some random.randint() feature to send_data_in_fragment() function, which suggested by [This Dude](https://twitter.com/joje_twit/status/1651341798046826496)~~  
-Because The pyprox_tcp repo is very active, i will not doing any Tweaks to the original script, i'll just make it compatible with my GUI.
-
+added some random.randint() feature to send_data_in_fragment() function, which suggested by [This Dude](https://twitter.com/joje_twit/status/1651341798046826496)  
 ps. I clearified my additions by #CFuzzy comment in the code.
 
 ## TODO:
 - make this thing save last settings when closed.
-- add youtube_server feature
-- add a internal xraycore and make this thing standalone
+- implement more tweaks
 - maybe adding Farsi
 - maybe adding some server killer feature in case that you closed app accidentally
 
