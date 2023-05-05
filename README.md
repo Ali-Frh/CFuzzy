@@ -9,7 +9,7 @@ wget "https://github.com/Ali-Frh/CFuzzy/archive/refs/heads/main.zip" && unzip ma
 ```   
 
 or even make a shortcut for main.py and double-click on it.  
-ps. If you Use **Linux**, make sure you have **tk** Package. (in Arch/Debian/Ubuntu/Fedora etc. Repos)
+ps. If you Use **Linux**, make sure you have **tk** Package. (available in Arch/Debian/Ubuntu/Fedora etc. Repos)
 
 
 ## Why this app looks ancient ?
