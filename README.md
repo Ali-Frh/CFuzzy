@@ -8,7 +8,9 @@ its a gui made for [This Masterpiece](https://github.com/GFW-knocker/gfw_resist_
 wget "https://github.com/Ali-Frh/CFuzzy/archive/refs/heads/main.zip" && unzip main.zip && cd CFuzzy-main && python3 main.py
 ```   
 
-or even make a shortcut for main.py and double-click on it.
+or even make a shortcut for main.py and double-click on it.  
+ps. If you Use **Linux**, make sure you have **tk** Package. (in Arch/Debian/Ubuntu/Fedora etc. Repos)
+
 
 ## Why this app looks ancient ?
 because i made it with Tkinter which is a ancient graphical toolkit, it doesnt look good but it is included in python3 standard package, it has simple syntax, small size, ...
