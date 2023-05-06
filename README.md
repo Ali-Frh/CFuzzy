@@ -1,5 +1,8 @@
 # CFuzzy
-![image](https://user-images.githubusercontent.com/16538325/234744580-cfa8b30b-6b72-46e0-b696-99d7791a1627.png)
+<!-- ![image](https://user-images.githubusercontent.com/16538325/234744580-cfa8b30b-6b72-46e0-b696-99d7791a1627.png) -->
+![image](https://user-images.githubusercontent.com/16538325/236638663-4a867662-2ccb-40d3-9799-c298a6fd17f7.png)
+
+
 ## So, wtf is this ?
 its a gui made for [This Masterpiece](https://github.com/GFW-knocker/gfw_resist_tls_proxy) code which make some socket stuff to your cloudflare requestes and get it pass through Goofy Firewall (GFW) and similar ones.
 
@@ -24,7 +27,8 @@ i will not tweaking the tcpproxy script anymore because the original project is 
 ps. I clearified my additions by #CFuzzy comment in the code.
 
 ## TODO:
-- make this thing save last settings when closed.
+~~- make this thing save last settings when closed.~~ ✔ v1.1
+- adding Farsi Tutorial
 - adding an internal xray core for supporting yt feature and more.
 - maybe making a server choosing menu from (yebekhe/cf-clean-ip-resolver)
 - maybe adding Farsi
